@@ -1,0 +1,8 @@
+@import "./mixin";
+h1{
+    color: red;
+}
+
+.dummy{
+    @include line(100px, 20px);
+}
